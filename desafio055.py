@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 '''
 Faça um programa que leia o peso de cinco pessoas e mostre qual foi o maior e o menor peso.
 '''
 maior = 0
 menor = 0
+=======
+maior = menor = 0
+>>>>>>> 1d5ff6a5dd62bd192391ed400e59ec834c439411
 =======
 maior = menor = 0
 >>>>>>> 1d5ff6a5dd62bd192391ed400e59ec834c439411
