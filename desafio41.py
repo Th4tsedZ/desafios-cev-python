@@ -1,3 +1,6 @@
+'''
+Criar um programa que leia o ano de nascimento de um atleta e informe sua categoria de acordo com sua idade.
+'''
 from datetime import date
 anoNasc = int(input('Digite o ano de nascimento do atleta: '))
 temp = date.today()

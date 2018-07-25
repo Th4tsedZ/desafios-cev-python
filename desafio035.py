@@ -1,3 +1,6 @@
+'''
+Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
+'''
 a = int(input('Digite quanto vale o lado A do triângulo: '))
 b = int(input('Digite quanto vale o lado B do triângulo: '))
 c = int(input('Digite quanto vale o lado C do triângulo: '))

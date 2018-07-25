@@ -1,7 +1,7 @@
-from math import hypot, sqrt
-cato = float(input('Digite o valor do cateto oposto: '))
-cata = float(input('Digite o valor do cateto adjacente: '))
-#hip = cato**2 + cata**2
-#hip2 = sqrt(hip)
-hip = hypot(cato, cata)
-print('A hipotenusa deste triângulo retângulo vale: {}'.format(hip))
+'''
+Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
+'''
+import math
+num = float(input('Digite um número real: '))
+numint = math.trunc(num)
+print('A porção inteira de {} eh: {}'.format(num, numint))

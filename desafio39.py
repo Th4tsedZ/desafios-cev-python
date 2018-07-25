@@ -1,3 +1,6 @@
+'''
+Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com a sua idade se ele ainda vai se alistar, se é hora de se alistar ou se ja passou da data de alistamento. Também será necessário mostrar o tempo que falta ou quanto passou do prazo.
+'''
 from datetime import date
 anoNasc = int(input('Digite o seu ano de nascimento: '))
 temp = date.today()

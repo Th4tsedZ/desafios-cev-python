@@ -1,4 +1,5 @@
-n1 = int(input('Digite o primeiro número: '))
-n2 = int(input('Digite o segundo número: '))
-soma = n1 + n2
-print('A soma entre {} e {} eh: {}'.format(n1, n2, soma))
+'''
+Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
+'''
+valor = input('Digite algo: ')
+print(valor.isupper())

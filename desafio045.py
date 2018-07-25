@@ -1,3 +1,6 @@
+'''
+Cria um programa que faça o computador jogar jokenpô com você.
+'''
 import random
 entrada = str(input('Digite pedra, papel ou tesoura: '))
 entrada.lower()

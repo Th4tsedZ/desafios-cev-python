@@ -1,3 +1,6 @@
+'''
+Refaça o desafio 035 dos triangulos acrescentando o recurso de mostrar se formará um triangulo equilátero, isósceles ou escaleno.
+'''
 a = int(input('Digite quanto vale o lado A do triângulo: '))
 b = int(input('Digite quanto vale o lado B do triângulo: '))
 c = int(input('Digite quanto vale o lado C do triângulo: '))

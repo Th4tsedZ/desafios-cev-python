@@ -1,3 +1,6 @@
+'''
+Escreva um programa que leia dois números inteiros e compare-os, mostrando na tela se o primeiro valor é maior, se o segundo valor é maior ou se os dois são iguais.
+'''
 n1 = int(input('Digite um número inteiro: '))
 n2 = int(input('Digite outro número inteiro: '))
 if n1 > n2:

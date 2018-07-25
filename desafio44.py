@@ -1,3 +1,6 @@
+'''
+Elabore um programa que calcule o valor a ser pago por um produto considerando seu preço normal e consição de pagamento.
+'''
 precoNormal = float(input('Digite o preço do produto sem descontos nem acréscimos: '))
 conPagamento = str(input('Digite a condição de pagamento: '))
 if conPagamento.lower() == 'dinheiro' or conPagamento.lower() == 'cheque':

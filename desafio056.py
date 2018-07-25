@@ -1,3 +1,6 @@
+'''
+Desenvolva um programa que leia nome, idade e sexo de 4 pessoas. No final, exiba a média de idade, o nome do homeme mais velho e quantas mulheres tem menos de 20 anos.
+'''
 soma = 0
 nmOlder = ''
 mlVinte = 0

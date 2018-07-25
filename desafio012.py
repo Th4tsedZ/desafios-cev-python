@@ -1,5 +1,7 @@
-l = float(input('Qual a largura da parede? '))
-h = float(input('Qual a altura da parede? '))
-a = h * l
-quantidade = a / 2
-print('A área da parede eh de {:.2f}m². Serão necessárias {:.0f} latas de tinta para pinta-la'.format(a, quantidade))
+'''
+Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+'''
+v = float(input('Digite o valor do produto: '))
+v2 = v * 0.05
+vdesc = v - v2
+print('O valor deste produto com desconto de 5% eh de: R${:.2f}'.format(vdesc))

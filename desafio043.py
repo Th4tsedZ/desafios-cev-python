@@ -1,3 +1,6 @@
+'''
+Criar um programa que leia a altura e pessoa de uma pessoa e calcule seu IMC, mostrando mensagenn diferentes de acordo com o valor.
+'''
 peso = float(input('Digite o seu peso: '))
 altura = float(input('Digite a sua altura: '))
 imc = peso / altura**2

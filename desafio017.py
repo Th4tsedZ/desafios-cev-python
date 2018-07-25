@@ -1,7 +1,10 @@
-import math
-ang = float(input('Digite um angulo qualquer: '))
-seno = math.sin(math.radians(ang))
-cose = math.cos(math.radians(ang))
-tang = math.tan(math.radians(ang))
-print('O seno de {}º eh {:.2f}. Seu cosseno eh {:.2f} e a tangente eh {:.2f}'.format(ang, seno, cose, tang))
-
+'''
+Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa.
+'''
+from math import hypot, sqrt
+cato = float(input('Digite o valor do cateto oposto: '))
+cata = float(input('Digite o valor do cateto adjacente: '))
+#hip = cato**2 + cata**2
+#hip2 = sqrt(hip)
+hip = hypot(cato, cata)
+print('A hipotenusa deste triângulo retângulo vale: {}'.format(hip))
